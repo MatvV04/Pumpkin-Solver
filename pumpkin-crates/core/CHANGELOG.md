@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.5.0](https://github.com/MatvV04/Pumpkin-Solver/compare/pumpkin-core-v0.4.0...pumpkin-core-v0.5.0) - 2026-07-29
+
+### Added
+
+- *(pumpkin-solver)* Start looking for new watcher from the previous watcher location ([#496](https://github.com/MatvV04/Pumpkin-Solver/pull/496))
+- *(pumpkin-solver,pumpkin-core)* Implement extended nogood propagation and CPIP nogood learning ([#454](https://github.com/MatvV04/Pumpkin-Solver/pull/454))
+
+### Fixed
+
+- *(pumpkin-core)* Handle predicates over constants in inference consequent ([#516](https://github.com/MatvV04/Pumpkin-Solver/pull/516))
+
+### Other
+
+- *(pumpkin-solver)* `PropagatorConstructor::create` now returns event registrations ([#456](https://github.com/MatvV04/Pumpkin-Solver/pull/456))
+- *(deps)* bump itertools from 0.14.0 to 0.15.0 ([#480](https://github.com/MatvV04/Pumpkin-Solver/pull/480))
+
 ## [0.4.0](https://github.com/ConSol-Lab/Pumpkin/compare/pumpkin-core-v0.3.0...pumpkin-core-v0.4.0) - 2026-06-23
 
 ### Added

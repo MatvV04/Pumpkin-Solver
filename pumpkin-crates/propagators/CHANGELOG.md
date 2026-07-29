@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.5.0](https://github.com/MatvV04/Pumpkin-Solver/compare/pumpkin-propagators-v0.4.0...pumpkin-propagators-v0.5.0) - 2026-07-29
+
+### Fixed
+
+- *(pumpkin-checker)* Incorrect rejection of unsatisfiable optimisation problem ([#515](https://github.com/MatvV04/Pumpkin-Solver/pull/515))
+
+### Other
+
+- *(pumpkin-solver)* `PropagatorConstructor::create` now returns event registrations ([#456](https://github.com/MatvV04/Pumpkin-Solver/pull/456))
+
 ## [0.4.0](https://github.com/ConSol-Lab/Pumpkin/compare/pumpkin-propagators-v0.3.0...pumpkin-propagators-v0.4.0) - 2026-06-23
 
 ### Fixed
